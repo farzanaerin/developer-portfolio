@@ -28,7 +28,7 @@ h1{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
     display: flex;
-    margin-bottom: 100px;
+    
 }
 .half-a{
     width: 50%;
@@ -40,7 +40,7 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
-    margin-bottom: 100px;
+
 }
 .half-a img{
     width: 100%;
@@ -63,8 +63,38 @@ footer p{
     text-align: center;
 }
 h2{
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: 20px;
 }
 h3{
     color: orange;
+}
+.experience-item{
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.div-section-margin{
+    margin-bottom: 80px;
+    color: grey;
+}
+.work-experience{
+    margin-bottom: 150px;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-B{
+    border-left: 10px solid;
+    border-image: linear-gradient(lightsalmon,pink);
+    border-image-slice: 1;
+}
+#baby-web-B{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
 }
