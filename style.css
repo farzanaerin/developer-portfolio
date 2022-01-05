@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width: 50%;
@@ -29,4 +30,31 @@ section{
 .top-banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.half-a{
+    width: 50%;
+    padding: 4%;
+
+}
+.big-dream{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-a img{
+    width: 100%;
+}
+.clr{
+    color: gray;
+}
+.resum{
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 5%;
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(lightsalmon,tomato);
+}
+.resum{
+    box-shadow: teal;
 }
