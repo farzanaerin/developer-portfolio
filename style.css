@@ -8,10 +8,7 @@ h1{
 .first{
    color: orange;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
-}
+
 .half{
     width: 50%;
     padding: 4%;
@@ -30,6 +27,8 @@ section{
 .top-banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 100px;
 }
 .half-a{
     width: 50%;
@@ -40,6 +39,8 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    margin-bottom: 100px;
 }
 .half-a img{
     width: 100%;
@@ -55,6 +56,15 @@ section{
     font-weight: 700;
     background-image: linear-gradient(lightsalmon,tomato);
 }
-.resum{
-    box-shadow: teal;
+.flexiable-conatiner{
+    display: flex;
+}
+footer p{
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    color: orange;
 }
