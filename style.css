@@ -73,13 +73,14 @@ h3{
     padding: 20px;
     box-shadow: 10px 10px 40px grey;
     width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
 
 }
 .div-section-margin{
     margin-bottom: 80px;
     color: grey;
+    display: block;
 }
 .work-experience{
     margin-bottom: 150px;
